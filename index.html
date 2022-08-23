@@ -7,6 +7,7 @@
     <title> Ugowrites </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />  
 </head>   
 <body> 
 
@@ -26,7 +27,7 @@
 
   <div class="hero-wrap">
     <div class="hero">
-      <div class="hero-left">
+      <div class="hero-left" data-aos="flip-left">
         <p> Hi there <i class="fa-solid fa-hand"></i></p> 
         <h1>I am Ugochukwu, an SEO content writer,
           Content creator and Art director.
@@ -51,7 +52,7 @@
     <div class="projects">
       <h4>Featured Projects</h4>
   
-      <div class="project-box">
+      <div class="project-box" data-aos="flip-left">
         <div class="box-left">
           <h1>01</h1>
           <h2>Amyville Realty</h2>
@@ -66,7 +67,7 @@
           <a href="https://amyvillerealty.com/">View project</a>
         </div>
       </div>
-      <div class="project-box">
+      <div class="project-box" data-aos="flip-right">
         <div class="box-left">
           <h1>02</h1>
           <h2>Makeitbetter</h2>
@@ -80,7 +81,7 @@
           <a href="https://makeitbetter.netlify.app/">View project</a>
         </div>
       </div>
-      <div class="project-box">
+      <div class="project-box" data-aos="flip-left">
         <div class="box-left">
           <h1>03</h1>
           <h2>Medianresources</h2>
@@ -95,7 +96,7 @@
           <a href="https://medianresources.netlify.app">View project</a>
         </div>
       </div>
-      <div class="project-box">
+      <div class="project-box" data-aos="flip-right">
         <div class="box-left">
           <h1>04</h1>
           <h2>Auradecor</h2>
@@ -110,7 +111,7 @@
           <a href="https://auradecor.netlify.app">View project</a>
         </div>
       </div>
-      <div class="project-box">
+      <div class="project-box" data-aos="flip-left">
         <div class="box-left">
           <h1>05</h1>
           <h2>Nueldev</h2>
@@ -129,9 +130,9 @@
 
 
  <div class="collab-wrap">
-  <div class="collaborate">
-    <p>NEED A CONTENT WRITER ?</p>
-    <h2>Let's collaborate <i class="fa-solid fa-arrow-right-long"></i></h2>
+  <div class="collaborate" >
+    <p data-aos="flip-down">NEED A CONTENT WRITER ?</p>
+    <h2 data-aos="flip-up">Let's collaborate <i class="fa-solid fa-arrow-right-long"></i></h2>
   </div>
   <div class="contact">
     <div>
@@ -143,6 +144,15 @@
     </div>  
   </div>
  </div>
+
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init({
+       duration: 1000,
+       once: true,
+   });
+ </script>
+<script src="script.js"></script>
 
 </body>  
 </html>
