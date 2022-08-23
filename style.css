@@ -385,13 +385,14 @@ nav{
     
 }
 .signup-form label{
-    font-weight: 500;
+    font-weight: 700;
     font-size: 18px;
     color: #ccc;
 }
 .signup-form ::placeholder{
     color: #ccc;
     font-size: 18px;
+    font-weight: 700;
 }
 .form-row{
     display: flex;
