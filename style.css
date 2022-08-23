@@ -8,7 +8,7 @@
     padding: 0;    
     text-decoration: none;
     box-sizing: border-box; 
-    background: #ABEBE2;   
+    background: #E1E5C4;   
 }
 
 nav{
@@ -243,7 +243,7 @@ nav{
     width: 85%;
     margin: 0 auto;
     margin-top: 10%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     text-align: center;
     border-bottom: 2px solid #000;
  }
