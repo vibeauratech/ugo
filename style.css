@@ -64,20 +64,28 @@ nav{
 }
 
 @media screen and (max-width:768px){
+
+    .hero{
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 15%;
+        
+    }
+
     .hero-left{
         flex-basis: 100%;
     }
     
-.hero-left p{
+  .hero-left p{
     font-size: 16px;
     width: 100%;
     padding-bottom: 15px;
-}
-.hero-left h1{
+  }
+   .hero-left h1{
     font-size: 36px;
     font-weight: 700;
     padding-bottom: 15px;
-}
+   }
     
 }
 
