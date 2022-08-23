@@ -7,14 +7,14 @@
     margin: 0;
     padding: 0;    
     text-decoration: none;
-    box-sizing: border-box; 
-    background: #E1E5C4;   
+    box-sizing: border-box;   
 }
 
 nav{
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid #000;
+    background: #E1E5C4;
 }
 
 .nav-left{
@@ -22,6 +22,10 @@ nav{
     padding: 15px 0;
    padding-left: 35px;
    padding-right: 35px;
+}
+.nav-left h4{
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .nav-middle{
@@ -39,10 +43,19 @@ nav{
     padding-right: 40px;
 }
 
+.nav-right a{
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
+.hero-wrap{
+    background: #E1E5C4;
+    padding: 12% 0;
+}
+
 .hero{
     width: 85%;
     margin: 0 auto;
-    margin-top: 10%;
     display: flex;
     justify-content: space-between;
 }
@@ -88,6 +101,7 @@ nav{
    }
     
 }
+
 
 .selected{
     width: 85%;
@@ -239,14 +253,20 @@ nav{
     }
  }
 
+ .collab-wrap{
+    background-color: #313131;
+    margin-top:10% ;
+    padding: 5% 0;
+    color: #fff;
+ }
+
  .collaborate{
     width: 85%;
     margin: 0 auto;
-    margin-top: 10%;
-    margin-bottom: 5%;
     text-align: center;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #fff;
  }
+
  .collaborate p{
     font-size: 24px;
     font-weight: 600;
@@ -258,6 +278,29 @@ nav{
     font-weight: 700;
     padding-bottom: 10%;
  }
+ 
+ .contact{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 2%;
+    text-align: left;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+ }
+
+ .contact h1{
+    font-size: 24px;
+ }
+ .contact h2{
+    font-size: 18px;
+    font-weight: 500;
+ }
+ .contact p{
+    font-size: 18px;
+    font-weight: 600;
+ }
+
 
 
  @media screen and (max-width:768px){
@@ -271,4 +314,12 @@ nav{
         font-size: 36px;
         font-weight: 700;
      }
+     .contact{
+        display: block;
+        margin-top: 15%;
+     }
+     .contact p{
+        padding-top: 5px;
+     }
  }
+
