@@ -120,6 +120,7 @@ nav{
 .project-box{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 5%;
     border: 2px solid #000;
 }
 
