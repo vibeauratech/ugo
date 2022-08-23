@@ -188,6 +188,10 @@ nav{
         display: flex;
        flex-direction: column;
     }
+    .projects h4{
+        font-size: 24px;
+        margin-bottom: 5%;
+     }
     
     .box-left{
         flex-basis: 100%;
