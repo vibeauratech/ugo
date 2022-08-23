@@ -48,6 +48,7 @@ nav{
     font-size: 18px;
     font-weight: 700;
 }
+
 .hero-wrap{
     background: #E1E5C4;
     padding: 12% 0;
@@ -77,6 +78,11 @@ nav{
 }
 
 @media screen and (max-width:768px){
+    .hero-wrap{
+        background: #E1E5C4;
+        padding: 5% 0;
+        padding-bottom: 18%;
+    }
 
     .hero{
         width: 85%;
@@ -304,6 +310,10 @@ nav{
 
 
  @media screen and (max-width:768px){
+
+    .collab-wrap{
+        margin-top: 30%;
+    }
     .collaborate p{
         font-size: 20px;
         font-weight: 600;
