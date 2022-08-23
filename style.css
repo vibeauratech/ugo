@@ -187,6 +187,7 @@ nav{
     .project-box{
         display: flex;
        flex-direction: column;
+       margin-bottom: 15%;
     }
     .projects h4{
         font-size: 24px;
