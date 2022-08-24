@@ -425,6 +425,8 @@ form button:hover{
     width: 85%;
     display: flex;
     justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .navigation p{
@@ -434,9 +436,15 @@ form button:hover{
     color: #fff;
     font-size: 18px;
     font-weight: 700;
-    margin-bottom: 5%;
 }
 
 .navigation a:hover{
     color: aqua;
+}
+
+@media screen and (max-width:768px){
+    .navigation{
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
 }
