@@ -334,44 +334,39 @@ nav{
      }
  }
 
+.message-box{
+    width: 40%;
+    margin: 0 auto;
+}
 
- 
-.signup-container{
-    width: 100%;
-    min-height: 0vh;
+form{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5%;
-    margin-top: 5px;
+    flex-direction: column;
 }
-.signup-box{
-    display: flex;
-    align-items: center;
+
+form label{
+    font-weight: 700;
+    font-size: 18px;
+    color: #ccc;
+}
+form ::placeholder{
+    color: #ccc;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+textarea{
     width: 100%;
-    max-width: 800px;
-    flex-wrap: wrap;
-}
-.signup-text{
-    flex-basis: 50%;
-    flex-grow: 1;
-}
-
-.signup-text{
-    background:black;
-    color: white;
-    padding: 40px 8%;
-    min-width: 250px;
-}
-.signup-text h2{
-    font-weight: 600;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border:2px solid #ccc ;
+    color: #ccc;
+    font-size: 18px;
+    outline: none;
+    background: transparent;
 }
 
-.signup-text h4{
-    text-align: center;
-    font-weight: 400;
-    margin-bottom: 10px;
-}
 .input-field{
     padding: 10px;
     border-radius: 4px;
@@ -386,24 +381,8 @@ nav{
     background: transparent;
     
 }
-.signup-form label{
-    font-weight: 700;
-    font-size: 18px;
-    color: #ccc;
-}
-.signup-form ::placeholder{
-    color: #ccc;
-    font-size: 18px;
-    font-weight: 700;
-}
-.form-row{
-    display: flex;
-    align-items: center;
-}
-.form-row input{
-    margin-right: 6px;
-}
-.signup-text button {
+
+form button {
     padding: 10px;
     border-radius: 4px;
     outline: none;
@@ -416,31 +395,18 @@ nav{
     font-size: 20px;
     font-weight: 700;
 }
-.signup-text button:hover{
+form button:hover{
     background:#E1E5C4;
     color: #000;
 }
 
-textarea{
-    width: 100%;
-    padding: 10px;
-    margin: 15px 0;
-    box-sizing: border-box;
-    border:2px solid #ccc ;
-    color: #C7E4E3;
-    outline: none;
-    background: transparent;
-}
-@media (max-width: 700px){
-    .signup-image img{
-        width: 360px;
-        height: 180px;
-        margin-top: 40px;
-        padding-bottom: 40px;
-        object-fit: cover;
-        display: block;
-        flex-grow: 1;
+
+@media screen and (max-width:768px){
+    .message-box{
+        width: 85%;
+        margin: 0 auto;
     }
+    
 }
 
 .content{
