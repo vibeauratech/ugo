@@ -454,3 +454,23 @@ textarea{
     font-size: 24px;
     font-weight: 600;
 }
+
+.navigation{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation p{
+    opacity: 0;
+}
+.navigation a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.navigation a:hover{
+    color: aqua;
+}
