@@ -421,6 +421,13 @@ form button:hover{
     font-weight: 600;
 }
 
+@media screen and (max-width:768px){
+    .content{
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+}
+
 .navigation{
     width: 85%;
     display: flex;
